@@ -11,7 +11,7 @@ export default function Home() {
           A small Next.js app used to create controlled PRs, failing checks, and
           review comments for lifecycle validation.
         </p>
-        <p className="summary">Content workflow trigger: FAIL_CONTENT.</p>
+        <p className="summary">Content workflow status: observer-ready.</p>
         <a className="repo-link" href="https://github.com/whoisasx/test-reverb">
           Open GitHub repo
         </a>
