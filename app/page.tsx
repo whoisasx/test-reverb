@@ -1,4 +1,5 @@
 import { StatusCard } from "./components/status-card";
+import "./components/build-failure-sentinel";
 import checks from "../ci-fixtures/checks.json";
 
 export default function Home() {
@@ -9,7 +10,7 @@ export default function Home() {
         <h1 id="page-title">Reverb Smoke Lab</h1>
         <p className="summary">
           A small Next.js app used to create controlled PRs, failing checks, and
-          review comments for lifecycle validation.
+          review comments for lifecycle validation and observer calibration.
         </p>
         <a className="repo-link" href="https://github.com/whoisasx/test-reverb">
           Open GitHub repo
@@ -24,4 +25,3 @@ export default function Home() {
     </main>
   );
 }
-
