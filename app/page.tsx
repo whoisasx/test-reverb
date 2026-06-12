@@ -2,7 +2,7 @@ import { StatusCard } from "./components/status-card";
 import checks from "../ci-fixtures/checks.json";
 
 export default function Home() {
-  const expectedObserverCount: number = "two";
+  const expectedObserverCount: number = 2;
 
   return (
     <main className="page-shell">
