@@ -1,0 +1,31 @@
+{
+  "name": "test-reverb",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "typecheck": "tsc --noEmit",
+    "test:all": "npm run test:content && npm run test:components && npm run test:routes && npm run test:accessibility && npm run test:copy && npm run test:metadata && npm run test:styles && npm run test:fixtures && npm run test:links",
+    "test:content": "node scripts/check-content.mjs",
+    "test:components": "node scripts/check-components.mjs",
+    "test:routes": "node scripts/check-routes.mjs",
+    "test:accessibility": "node scripts/check-accessibility.mjs",
+    "test:copy": "node scripts/check-copy.mjs",
+    "test:metadata": "node scripts/check-metadata.mjs",
+    "test:styles": "node scripts/check-styles.mjs",
+    "test:fixtures": "node scripts/check-fixtures.mjs",
+    "test:links": "node scripts/check-links.mjs"
+  },
+  "dependencies": {
+    "next": "16.2.9",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  },
+  "devDependencies": {
+    "@types/node": "25.9.3",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "typescript": "6.0.3"
+  }
+}

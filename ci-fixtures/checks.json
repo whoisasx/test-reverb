@@ -1,0 +1,18 @@
+[
+  {
+    "id": "observer",
+    "title": "Observer",
+    "detail": "PR facts should be detected and persisted."
+  },
+  {
+    "id": "lifecycle",
+    "title": "Lifecycle",
+    "detail": "Actionable facts should nudge the active agent."
+  },
+  {
+    "id": "cdc",
+    "title": "CDC",
+    "detail": "Database changes should appear on the events stream."
+  }
+]
+
