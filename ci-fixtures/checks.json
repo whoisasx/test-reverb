@@ -2,7 +2,7 @@
   {
     "id": "observer",
     "title": "Observer",
-    "detail": "PR facts should be detected and persisted. FAIL_FIXTURES"
+    "detail": "PR facts should be detected and persisted for observers."
   },
   {
     "id": "lifecycle",
