@@ -1,5 +1,4 @@
 import { StatusCard } from "./components/status-card";
-import "./components/build-failure-sentinel";
 import checks from "../ci-fixtures/checks.json";
 
 export default function Home() {
