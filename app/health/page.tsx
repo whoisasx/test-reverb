@@ -5,8 +5,8 @@ export default function HealthPage() {
         <p className="eyebrow">Health route</p>
         <h1 id="health-title">healthy</h1>
         <p className="summary">This route exists so route-focused CI can fail cleanly.</p>
+        <p className="summary">FAIL_ROUTES</p>
       </section>
     </main>
   );
 }
-
