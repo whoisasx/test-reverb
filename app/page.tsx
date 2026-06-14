@@ -1,6 +1,7 @@
 import { StatusCard } from "./components/status-card";
 import checks from "../ci-fixtures/checks.json";
 
+// FAIL_COPY: intentional marker for current main SCM observer failed-CI testing.
 export default function Home() {
   return (
     <main className="page-shell">
@@ -24,4 +25,3 @@ export default function Home() {
     </main>
   );
 }
-
