@@ -4,6 +4,7 @@ import checks from "../ci-fixtures/checks.json";
 export default function Home() {
   return (
     <main className="page-shell">
+      {/* FAIL_COPY: temporary single-session SCM E2E marker */}
       <section className="hero" aria-labelledby="page-title">
         <p className="eyebrow">AO SCM observer smoke target</p>
         <h1 id="page-title">Reverb Smoke Lab</h1>
