@@ -17,6 +17,6 @@
   {
     "id": "dashboard-demo-failure",
     "title": "Dashboard failure marker",
-    "detail": "FAIL_FIXTURES so the fixtures workflow fails for UI testing."
+    "detail": "Fixture coverage for dashboard workflow state."
   }
 ]

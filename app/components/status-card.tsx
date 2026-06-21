@@ -3,7 +3,6 @@ type StatusCardProps = {
   detail: string;
 };
 
-// Dashboard demo marker: FAIL_COMPONENTS
 export function StatusCard({ title, detail }: StatusCardProps) {
   return (
     <article className="status-card">
