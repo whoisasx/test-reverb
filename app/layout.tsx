@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+// Dashboard demo marker: FAIL_METADATA
 export const metadata: Metadata = {
   title: "Reverb Smoke Lab",
   description: "A disposable Next.js app for AO SCM observer smoke tests."
@@ -17,4 +18,3 @@ export default function RootLayout({
     </html>
   );
 }
-

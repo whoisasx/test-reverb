@@ -1,6 +1,8 @@
 import { StatusCard } from "./components/status-card";
 import checks from "../ci-fixtures/checks.json";
 
+const dashboardDemoTypeFailure: string = 42;
+
 export default function Home() {
   return (
     <main className="page-shell">
@@ -24,3 +26,10 @@ export default function Home() {
     </main>
   );
 }
+
+/* Dashboard demo CI markers:
+FAIL_CONTENT
+FAIL_COPY
+FAIL_ACCESSIBILITY
+FAIL_LINKS
+*/

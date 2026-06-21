@@ -13,6 +13,10 @@
     "id": "cdc",
     "title": "CDC",
     "detail": "Database changes should appear on the events stream."
+  },
+  {
+    "id": "dashboard-demo-failure",
+    "title": "Dashboard failure marker",
+    "detail": "FAIL_FIXTURES so the fixtures workflow fails for UI testing."
   }
 ]
-

@@ -1,4 +1,5 @@
 export default function HealthPage() {
+  // Dashboard demo marker: FAIL_ROUTES
   return (
     <main className="page-shell">
       <section className="hero" aria-labelledby="health-title">
@@ -9,4 +10,3 @@ export default function HealthPage() {
     </main>
   );
 }
-
