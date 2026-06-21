@@ -8,8 +8,8 @@ export default function Home() {
         <p className="eyebrow">AO SCM observer smoke target</p>
         <h1 id="page-title">Reverb Smoke Lab</h1>
         <p className="summary">
-          A small Next.js app used to create controlled PRs, failing checks, and
-          base conflict marker for lifecycle validation.
+          A small Next.js app used to create controlled PRs, failing checks,
+          review comments, and base and PR conflict markers for lifecycle validation.
         </p>
         <a className="repo-link" href="https://github.com/whoisasx/test-reverb">
           Open GitHub repo
