@@ -1,6 +1,8 @@
 import { StatusCard } from "./components/status-card";
 import checks from "../ci-fixtures/checks.json";
 
+const dashboardDemoTypeFailure: string = 42;
+
 export default function Home() {
   return (
     <main className="page-shell">
@@ -10,6 +12,7 @@ export default function Home() {
         <p className="summary">
           A small Next.js app used to create controlled PRs, failing checks, and
           review comments for lifecycle validation.
+          FAIL_CONTENT FAIL_COPY FAIL_ACCESSIBILITY FAIL_LINKS
         </p>
         <a className="repo-link" href="https://github.com/whoisasx/test-reverb">
           Open GitHub repo

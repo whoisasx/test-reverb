@@ -4,6 +4,7 @@ type StatusCardProps = {
 };
 
 export function StatusCard({ title, detail }: StatusCardProps) {
+  // FAIL_COMPONENTS
   return (
     <article className="status-card">
       <h2>{title}</h2>
