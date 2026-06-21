@@ -17,6 +17,6 @@
   {
     "id": "dashboard-demo-failure",
     "title": "Dashboard failure marker",
-    "detail": "Fixture coverage for dashboard workflow state. FAIL_FIXTURES"
+    "detail": "Fixture coverage for dashboard workflow state."
   }
 ]
