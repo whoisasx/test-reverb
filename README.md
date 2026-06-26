@@ -7,6 +7,10 @@ agents to make small PRs that break one workflow at a time, so the AO daemon can
 observe PR state, CI failure state, review comments, cache updates, database
 writes, CDC events, and lifecycle nudges.
 
+## AO smoke scenario
+
+Dashboard link smoke value: initial
+
 ## Local commands
 
 ```bash
@@ -33,4 +37,3 @@ The custom smoke workflows fail when these marker strings are introduced:
 
 The build and typecheck workflows can be failed by introducing invalid Next.js
 or TypeScript code.
-
