@@ -9,7 +9,7 @@ writes, CDC events, and lifecycle nudges.
 
 ## AO smoke scenario
 
-Dashboard link smoke value: base branch conflict for AO dashboard
+Dashboard link smoke value: refreshed base conflict for AO dashboard
 
 ## Local commands
 
