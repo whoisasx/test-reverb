@@ -15,3 +15,5 @@ Verified AO all-check failing status rendering for worker A.
 Verified AO latest-head failing status rendering for worker A.
 
 Verified AO workflow-target failing status rendering for worker A.
+
+Verified AO current-head workflow status rendering for worker A.
