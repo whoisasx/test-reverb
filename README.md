@@ -2,6 +2,8 @@
 
 Disposable Next.js repository for exercising ReverbCode/AO SCM observation.
 
+Session-card preview marker: disposable documentation-only change for AO demos.
+
 The repository starts in a passing state. Dummy GitHub issues intentionally ask
 agents to make small PRs that break one workflow at a time, so the AO daemon can
 observe PR state, CI failure state, review comments, cache updates, database
@@ -33,4 +35,3 @@ The custom smoke workflows fail when these marker strings are introduced:
 
 The build and typecheck workflows can be failed by introducing invalid Next.js
 or TypeScript code.
-
