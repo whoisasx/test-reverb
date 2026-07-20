@@ -11,4 +11,3 @@ export function StatusCard({ title, detail }: StatusCardProps) {
     </article>
   );
 }
-
