@@ -1,3 +1,4 @@
+// FAIL_COPY
 import { StatusCard } from "./components/status-card";
 import checks from "../ci-fixtures/checks.json";
 
