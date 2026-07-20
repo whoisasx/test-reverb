@@ -2,9 +2,15 @@ import { StatusCard } from "./components/status-card";
 import checks from "../ci-fixtures/checks.json";
 
 export default function Home() {
+  const expectedObserverCount: number = 2;
+
   return (
     <main className="page-shell">
-      <section className="hero" aria-labelledby="page-title">
+      <section
+        className="hero"
+        aria-labelledby="page-title"
+        data-observer-count={expectedObserverCount}
+      >
         <p className="eyebrow">AO SCM observer smoke target</p>
         <h1 id="page-title">Reverb Smoke Lab</h1>
         <p className="summary">
