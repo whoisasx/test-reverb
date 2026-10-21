@@ -2,7 +2,7 @@
   {
     "id": "observer",
     "title": "Observer",
-    "detail": "PR facts should be detected and persisted."
+    "detail": "PR facts should be detected and persisted for observers."
   },
   {
     "id": "lifecycle",
@@ -15,4 +15,3 @@
     "detail": "Database changes should appear on the events stream."
   }
 ]
-
