@@ -4,6 +4,8 @@ Disposable Next.js repository for exercising ReverbCode/AO SCM observation.
 
 Session-card preview marker: disposable documentation-only change for AO demos.
 
+AO dummy workflow note: this repo is useful for quick PR lifecycle checks.
+
 The repository starts in a passing state. Dummy GitHub issues intentionally ask
 agents to make small PRs that break one workflow at a time, so the AO daemon can
 observe PR state, CI failure state, review comments, cache updates, database
