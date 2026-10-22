@@ -35,3 +35,8 @@ The custom smoke workflows fail when these marker strings are introduced:
 
 The build and typecheck workflows can be failed by introducing invalid Next.js
 or TypeScript code.
+
+## Dummy PR
+
+This documentation-only change exercises the pull request workflow without
+changing application behavior.
