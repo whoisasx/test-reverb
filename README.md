@@ -2,6 +2,8 @@
 
 Disposable Next.js repository for exercising ReverbCode/AO SCM observation.
 
+[Dummy PR marker: test pull request for AO session testing]
+
 Session-card preview marker: disposable documentation-only change for AO demos.
 
 The repository starts in a passing state. Dummy GitHub issues intentionally ask
